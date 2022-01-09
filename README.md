@@ -3,9 +3,9 @@
 input (number of sections) // let say 4 
 submit
 - [section 1](#section-1)
-- [section 1](#section-2)
-- [section 1](#section-3)
-- [section 1s](#section-4)
+- [section 4](#section-2)
+- [section 3](#section-3)
+- [section 4](#section-4)
 # Landing section
 two parts
 - [h1 + p]
