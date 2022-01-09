@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - UDACITY - Project 2</title>
+    <!-- normalize css file (makes browsers render all elements more consistently and in line with modern standards)  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome library (Icon usese) -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main css file  -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- header part  -->
+    <header>
+        <div class="container">
+            <form action="">
+                <input type="text" placeholder="number of section">
+                <input type="submit" value="change">
+            </form>
+            <nav>
+    <!-- Navigation is built dynamically as an unordered list. Start with empty ul and dynamically build navigation using Append,
+        appendChild, and innerHTML. -->
+
+    <!-- Styling should be added for active states.
+        Set CSS class active state when the element is in the viewport.
+        The active section in the Navbar should be highlighted. -->
+
+    <!-- When clicking an item from the navigation menu, the link should scroll to the appropriate section. -->
+            </nav>
+        </div>
+    </header>
+    <!-- rubric project specifications  -->
+    <!-- ....................................... -->
+    <!-- You can use the following methods to fulfill this criterion:
+        Use addEventListener('click',....) to listen to the click event.
+        Use preventDefault() as if there is a default event occurring we need to stop that.
+        There are several javascript methods for scrolling, scroll(), scrollBy(), and scrollIntoView() are all acceptable.
+        A smooth scrolling behavior is expected in the project. -->
+    <!-- There are at least 4 sections that have been added to the page. -->
+    <!-- It should be clear which section is being viewed while scrolling through the page. -->
+    <!-- Tip: Detect the element location relative to the viewport using .getBoundingClientRect() built-in function. -->
+    <!-- ..................................  -->
+    <!-- landing part -->
+    <section class="landing">
+        <div class="container">
+            <article>
+                <h1>dara shop store</h1>
+                <p>you can find your bueaty in this shop, make your own gift and gift it to your loved one.</p>
+            </article>
+            <div><img src="images/landing.jpg" alt="landing page image"></div>
+        </div>
+    </section> 
+
+    <div class="sections-space">
+    <!-- .....................................  -->
+    <!-- in this position we must but number of sections which are deterimind from Js file -->
+    <!-- .....................................  -->
+    <!-- footer part  -->
+    </div>
+
+    <footer>
+        <div class="container">
+            <div><img src="images/omar.jpg" alt="personal photo"></div>
+            <article>
+                <h3>front-end development work</h3>
+                <p>this template was done for <span>udacity</span> organization by <span>omar abrash</span> as a project related to the frontend web track</p>
+                <div class="links">
+                    <a href="https://github.com/omar-abrash/" target="_blank"><i class="fab fa-git-square"></i></a>
+                    <a href="https://www.linkedin.com/in/omar-abrash-709125197/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://web.facebook.com/omar.abrash.376?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                </div>
+                <div class="date">work date : 2022</div>
+            </article>
+        </div>
+    </footer>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
