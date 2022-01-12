@@ -1,3 +1,6 @@
+# DEMO
+https://omar-abrash.github.io/dynamic-section-addition-Landing-page-template/
+
 # Landing-Page (Dara Shop) - UDACITY - Project
 # navegation bar
 input (number of sections) // let say 4 
